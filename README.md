@@ -1,5 +1,6 @@
 # Serverless-DynamoDB-Table-NodeJS
 
+
 # <sub> 1. Create a "frame" for the DynamoDB table </sub>
 ### <sub>I decided to use the Builder Pattern to create a "frame" for the table. There are about 20 possible parameters to consider when building a DynamoDB table so I wanted to design the build in such a way that the paramaters are organized and easily readable/understandable. </sub> 
 ### <sub> Building with this pattern, I also get flexibily and reusability. I can easily add or remove attributes, and configurations such as throughput, partition keys, etc.. as needed </sub> 
