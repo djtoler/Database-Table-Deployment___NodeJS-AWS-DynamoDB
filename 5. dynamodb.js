@@ -17,6 +17,8 @@ async function getUser () {
     return returnDynamoDBUser
 }
 
-createNewUser()
+// createNewUser()
+
+createDocumentOrTable()
 
 module.exports = createDocumentOrTable, createNewUser, getUser
